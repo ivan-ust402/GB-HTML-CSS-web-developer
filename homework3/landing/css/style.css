@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Gilroy-Medium', sans-serif;
+  font-family: "Gilroy-Medium", sans-serif;
 }
 
 .center {
@@ -22,7 +22,12 @@ a {
 
 .header {
   margin-top: 45px;
-  margin-bottom: 89px;
+  margin-bottom: 88px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__link {
@@ -31,37 +36,46 @@ a {
   font-size: 14px;
   /* font-weight: 400; */
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 25px;
 }
 
 .active {
-  font-family: 'Gilroy-SemiBold', sans-serif;
+  font-family: "Gilroy-SemiBold", sans-serif;
   color: #f25822;
 }
 
 .content {
   margin-bottom: 162px;
+  display: flex;
+  gap: 41px;
+  align-items: center;
 }
 
 .title {
-  font-family: 'Gilroy-Bold', sans-serif;
+  font-family: "Gilroy-Bold", sans-serif;
   color: #000;
   font-size: 60px;
   /* font-weight: 400; */
   margin-bottom: 17px;
+  width: 522px;
 }
 
 .text {
   color: #888;
   font-size: 20px;
   /* font-weight: 400; */
+  width: 466px;
 }
 
 .content__buttons {
   margin-top: 52px;
+  display: flex;
+  gap: 72px;
+  align-items: center;
 }
 
 .button {
-  font-family: 'Gilroy-Bold', sans-serif;
+  font-family: "Gilroy-Bold", sans-serif;
   border-radius: 50px;
   border: 0;
   background: #f25822;
@@ -83,4 +97,6 @@ a {
 .logos {
   padding-top: 97px;
   padding-bottom: 96px;
+  display: flex;
+  gap: 48px;
 }
