@@ -31,7 +31,7 @@ a {
 }
 
 .header__link {
-  font-family: 'Gilroy-Bold', sans-serif;
+  font-family: "Gilroy-Bold", sans-serif;
   color: #000;
   font-size: 14px;
   /* font-weight: 400; */
@@ -99,4 +99,52 @@ a {
   padding-bottom: 96px;
   display: flex;
   gap: 48px;
+}
+
+.skills {
+  display: grid;
+  gap: 59px;
+  grid-template-columns: repeat(3, 370px);
+}
+
+.skill__card {
+  background: #fff;
+  width: 370px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 25px;
+  display: grid;
+  justify-items: start;
+  padding-left: 29px;
+}
+
+.skill__card__active {
+  background: #fff;
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.skill__title {
+  margin-top: 25px;
+  margin-bottom: 17px;
+  color: #000;
+  font-family: 'Gilroy-Bold';
+  font-size: 24px;
+}
+
+.skill_text {
+  color: #666;
+  font-family: 'Gilroy-Regular';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px; /* 22.5px */
+  width: 310px;
+}
+
+.skill__link {
+  margin-top: 25px;
+  color: #000;
+  font-family: 'Gilroy-Bold';
+  font-size: 11px;
+  line-height: 16.5px; /* 16.5px */
 }
