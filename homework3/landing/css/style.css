@@ -128,13 +128,13 @@ a {
   margin-top: 25px;
   margin-bottom: 17px;
   color: #000;
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   font-size: 24px;
 }
 
 .skill_text {
   color: #666;
-  font-family: 'Gilroy-Regular';
+  font-family: "Gilroy-Regular";
   font-size: 15px;
   font-weight: 400;
   line-height: 22.5px; /* 22.5px */
@@ -144,7 +144,89 @@ a {
 .skill__link {
   margin-top: 25px;
   color: #000;
-  font-family: 'Gilroy-Bold';
+  font-family: "Gilroy-Bold";
   font-size: 11px;
   line-height: 16.5px; /* 16.5px */
+}
+
+.advantages {
+  background: #fafafa;
+  padding-top: 92px;
+  padding-bottom: 100px;
+}
+
+.advantage__title {
+  margin-bottom: 19px;
+  color: #000;
+  font-family: "Gilroy-Bold";
+  font-size: 45px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.advantage__text {
+  color: #666;
+  width: 682px;
+  text-align: center;
+  font-family: "Gilroy-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantage__content {
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  gap: 30px;
+}
+
+.advantage__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+
+.advantage__card__active {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+.advantage__card__title {
+  color: #000;
+  font-family: "Gilroy-Bold";
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.advantage__card__text {
+  color: #aaa;
+  text-align: center;
+  font-family: "Gilroy-Regular";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+  margin-bottom: 39px;
+}
+.advantage__button {
+  border: 0;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  padding-left: 35px;
+  padding-right: 36px;
+  margin-bottom: 50px;
+}
+
+.right__arrow {
+  margin-left: 6px;
 }
