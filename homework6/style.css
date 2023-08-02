@@ -6,3 +6,29 @@
 a {
     text-decoration: none;
 }
+
+.center {
+    padding-left: calc(50% - 575px);
+    padding-right: calc(50% - 575px);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.header__left {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.header__rigth {
+    display: flex;
+    gap: 41px;
+}
