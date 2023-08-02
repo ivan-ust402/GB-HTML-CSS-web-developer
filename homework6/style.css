@@ -11,6 +11,14 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .center {
   padding-left: calc(50% - 575px);
   padding-right: calc(50% - 575px);
@@ -43,7 +51,11 @@ a {
   background-color: rgba(241, 228, 230, 1);
 }
 
-.to__image {
+.main_picture {
+    margin-left: -224px;
+}
+
+.top__image {
   margin-left: 0;
 }
 
