@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
+
 .top {
   background: #fff;
 }
@@ -86,6 +91,10 @@ a {
   width: 140px;
   height: 50px;
   flex-shrink: 0;
+}
+
+.button:hover {
+  cursor: pointer;
 }
 
 .link {
