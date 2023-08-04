@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -217,3 +217,5 @@ button:hover {
     padding-right: 39px;
     background-color: #fff;
 }
+
+
