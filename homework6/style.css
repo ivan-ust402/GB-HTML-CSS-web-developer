@@ -341,7 +341,12 @@ button:hover {
     padding-right: calc(50% - 187.5px);
   }
 
-
+  .header-left {
+    margin-left: 16px;
+  }
+  .header-right {
+    margin-right: 16px;
+  }
 
   .user {
     display: none;
@@ -351,30 +356,33 @@ button:hover {
     display: none;
   }
 
-  .top {
-    gap: 39px;
-  }
-  .custom__header {
-    /* display: flex;
-    gap: 16px; */
-    margin-top: 138px;
-    margin-bottom: 151px;
-  }
   .main_picture {
-    width: 386px;
-    height: 368px;
-    margin-left: -112px;
+    display: none;
   }
+
+  .custom__header {
+    margin-top: 148px;
+    margin-bottom: 149px;
+    gap: 15px;
+    align-items: center;
+    margin-left: 56px;
+  }
+
+  .top_image {
+    width: 12px;
+    height: 61px;
+  }
+
   .top__title {
-    font-size: 44px;
+    font-size: 38px;
   }
 
   .top__subtitle {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .highlighting {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .categories {
