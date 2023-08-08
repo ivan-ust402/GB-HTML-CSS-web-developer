@@ -386,39 +386,43 @@ button:hover {
   }
 
   .categories {
-    grid-template-columns: repeat(3, 232px);
+    grid-template-columns: repeat(1, 343px);
     gap: 19.9px;
     padding-top: 65px;
     padding-bottom: 109px;
+    margin-left: 16px;
   }
 
   .card1 {
-    width: 232px;
-    height: 168px;
+    width: 343px;
+    height: 247px;
   }
 
   .card2 {
-    width: 232px;
-    height: 168px;
+    width: 343px;
+    height: 247px;
   }
 
   .card3 {
-    width: 232px;
-    height: 168px;
+    width: 343px;
+    height: 247px;
   }
 
   .card4 {
-    width: 734.6px;
-    height: 116px;
+    width: 343px;
+    height: 111px;
+    background-size: 734.6px 116px;
+    background-position: center;
   }
+
   .card__content {
-    padding-top: 59px;
-    padding-bottom: 59px;
+    padding-top: 98px;
+    padding-bottom: 99px;
   }
 
   .card__content__long__card {
-    padding-top: 33px;
-    padding-bottom: 33px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .category__subtitle {
