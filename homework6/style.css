@@ -186,6 +186,59 @@ button:hover {
   background-color: rgba(248, 248, 248, 1);
 }
 
+.wrapper {
+  position: relative;
+}
+.item__link__block {
+  /* background-image: url("img/items/item2.svg"); */
+  background-size: cover;
+  width: 359px;
+  height: 418px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item__link__block:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+  }
+.item__image {
+  position: absolute;
+}
+.item__link {
+  display: none;
+}
+
+.item__link__block:hover .item__link {
+  display: block;
+  z-index: 4;
+}
+
+
+.item__button {
+  border: 1px solid white;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+  align-items: center;
+  padding-left: 13.5px;
+  padding-right: 16.5px;
+  padding-top: 11.5px;
+  padding-bottom: 9px;
+}
+
+.item__button__text {
+  color: white;
+}
+
 .item__description {
   padding-left: 16px;
 }
