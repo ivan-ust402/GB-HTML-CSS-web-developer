@@ -273,6 +273,13 @@ button:hover {
   padding-left: 39px;
   padding-right: 39px;
   background-color: #fff;
+  transition: all .3s;
+}
+
+.more:hover {
+  background-color: #F16D7F;
+  border-color: #FF6A6A;
+  color: #fff;
 }
 
 .advantages {
@@ -388,6 +395,11 @@ button:hover {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
+  transition: all 0.3s;
+}
+
+.subscription__button:hover {
+  background-color: #D73C3C;
 }
 
 .contacts {
@@ -418,6 +430,11 @@ button:hover {
   width: 32px;
   height: 32px;
   background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+.messenger__wrapper:hover {
+  background-color: #F16D7F;
 }
 
 
