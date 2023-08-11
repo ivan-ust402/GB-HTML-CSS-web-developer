@@ -391,6 +391,8 @@ button:hover {
 }
 
 .contacts {
+  padding-top: 24px;
+  padding-bottom: 23px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -399,12 +401,25 @@ button:hover {
 
 .contacts__copyrighting {
   color: #fbfbfb;
-  font-family: Lato;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
+
+.contacts__messengers {
+  display: flex;
+  flex-direction: row;
+  gap: 7.29px;
+}
+
+.messenger__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+}
+
 
 @media (max-width: 1024px) {
   .center {
