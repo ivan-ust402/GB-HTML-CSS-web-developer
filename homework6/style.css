@@ -276,6 +276,36 @@ button:hover {
   background-color: #fff;
 }
 
+.advantages {
+  padding-top: 103px;
+  padding-bottom: 104px;
+  background: #222224;
+  display: flex;
+  gap: 30px;
+  color: #FBFBFB;
+}
+
+.advantages__card {
+  text-align: center;
+}
+
+.advantages__icon {
+  margin-bottom: 28px;
+}
+
+.advantages__title {
+  margin-bottom: 16px;
+  font-size: 19.96px;
+  font-weight: 400;
+}
+
+.advantages__text {
+  font-size: 13.972px;
+  font-weight: 300;
+}
+
+
+
 @media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 384px);
