@@ -191,6 +191,7 @@ button:hover {
 }
 .item__link__block {
   /* background-image: url("img/items/item2.svg"); */
+  background: rgb(0, 0, 0);
   background-size: cover;
   width: 359px;
   height: 418px;
@@ -199,7 +200,8 @@ button:hover {
   justify-content: center;
 }
 
-.item__link__block:hover::after {
+
+/* .item__link__block:hover::after {
   content: "";
   position: absolute;
   top: 0;
@@ -208,16 +210,28 @@ button:hover {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   z-index: 2;
-}
+} */
+
+
 .item__image {
   position: absolute;
-}
-.item__link {
-  display: none;
+  transition: all .3s ease-in;
 }
 
+.item__link__block:hover .item__image{
+  opacity: 0.5;
+}
+
+.item__link {
+  visibility: hidden;
+  z-index: -1;
+  transition: all .2s ease-in;
+}
+
+
+
 .item__link__block:hover .item__link {
-  display: block;
+  visibility: visible;
   z-index: 4;
 }
 
