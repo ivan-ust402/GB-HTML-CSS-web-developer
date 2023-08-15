@@ -90,6 +90,52 @@ button:hover {
   line-height: normal;
 }
 
+.drop__menu {
+  background: #fff;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  list-style-type: none;
+  width: 232px;
+  padding-top: 32px;
+  padding-left: 33px;
+  padding-bottom: 12px;
+}
+
+.menu__title {
+  margin-bottom: 24px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.menu__item {
+  margin-bottom: 20px;
+}
+
+.menu__item__title {
+  margin-bottom: 12px;
+}
+
+.catalog__link {
+  color: #f16d7f;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.menu__subitem {
+  margin-bottom: 11px;
+  margin-left: 21.5px;
+}
+
+.chapter__link {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.menu__item__list {
+  list-style-type: none;
+}
+
 .categories {
   display: grid;
   grid-template-columns: repeat(3, 360px);
@@ -200,7 +246,6 @@ button:hover {
   justify-content: center;
 }
 
-
 /* .item__link__block:hover::after {
   content: "";
   position: absolute;
@@ -212,23 +257,20 @@ button:hover {
   z-index: 2;
 } */
 
-
 .item__image {
   position: absolute;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
-.item__link__block:hover .item__image{
+.item__link__block:hover .item__image {
   opacity: 0.5;
 }
 
 .item__link {
   visibility: hidden;
   z-index: -1;
-  transition: all .2s ease-in;
+  transition: all 0.2s ease-in;
 }
-
-
 
 .item__link__block:hover .item__link {
   visibility: visible;
@@ -287,12 +329,12 @@ button:hover {
   padding-left: 39px;
   padding-right: 39px;
   background-color: #fff;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .more:hover {
-  background-color: #F16D7F;
-  border-color: #FF6A6A;
+  background-color: #f16d7f;
+  border-color: #ff6a6a;
   color: #fff;
 }
 
@@ -413,7 +455,7 @@ button:hover {
 }
 
 .subscription__button:hover {
-  background-color: #D73C3C;
+  background-color: #d73c3c;
 }
 
 .contacts {
@@ -448,9 +490,8 @@ button:hover {
 }
 
 .messenger__wrapper:hover {
-  background-color: #F16D7F;
+  background-color: #f16d7f;
 }
-
 
 @media (max-width: 1024px) {
   .center {
@@ -739,7 +780,7 @@ button:hover {
   }
 
   .subscription__text {
-    font-size: 18px;  
+    font-size: 18px;
   }
 
   .subscription__text__italic {
