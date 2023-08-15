@@ -32,6 +32,7 @@ button:hover {
   background: #222;
   padding-top: 18px;
   padding-bottom: 19px;
+  position: relative;
 }
 
 .header__left {
@@ -43,6 +44,77 @@ button:hover {
 .header__rigth {
   display: flex;
   gap: 41px;
+  align-items: center;
+} 
+
+
+.drop__menu {
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+  background: #fff;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  list-style-type: none;
+  width: 232px;
+  padding-top: 32px;
+  padding-left: 33px;
+  padding-bottom: 12px;
+  position: absolute;
+  top: 78.5px;
+  left: calc(50% + 596px);
+  transition: all 0.3s 0.3s;
+}
+
+
+.menu__title {
+  margin-bottom: 24px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.menu__item {
+  margin-bottom: 20px;
+}
+
+.menu__item__title {
+  margin-bottom: 12px;
+}
+
+.catalog__link {
+  color: #f16d7f;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.menu__subitem {
+  margin-bottom: 11px;
+  margin-left: 21.5px;
+}
+
+.chapter__link {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.menu__item__list {
+  list-style-type: none;
+}
+
+.drop__content:hover .drop__menu {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+}
+
+
+.drop__content .catalog__link:hover {
+  color: #d73c3c;
+}
+
+.drop__content .chapter__link:hover {
+  color: #383838;
 }
 
 .top {
@@ -88,52 +160,6 @@ button:hover {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}
-
-.drop__menu {
-  background: #fff;
-  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-  list-style-type: none;
-  width: 232px;
-  padding-top: 32px;
-  padding-left: 33px;
-  padding-bottom: 12px;
-}
-
-.menu__title {
-  margin-bottom: 24px;
-  color: #000;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.menu__item {
-  margin-bottom: 20px;
-}
-
-.menu__item__title {
-  margin-bottom: 12px;
-}
-
-.catalog__link {
-  color: #f16d7f;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.menu__subitem {
-  margin-bottom: 11px;
-  margin-left: 21.5px;
-}
-
-.chapter__link {
-  color: #6f6e6e;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.menu__item__list {
-  list-style-type: none;
 }
 
 .categories {
@@ -493,6 +519,12 @@ button:hover {
   background-color: #f16d7f;
 }
 
+@media (max-width: 1440px) {
+  .drop__menu {
+    left: auto;
+  }
+}
+
 @media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 384px);
@@ -501,6 +533,7 @@ button:hover {
   .top {
     gap: 39px;
   }
+
   .custom__header {
     /* display: flex;
     gap: 16px; */
@@ -642,6 +675,10 @@ button:hover {
   }
   .header-right {
     margin-right: 16px;
+  }
+
+  .drop__menu {
+    left: 50%;
   }
 
   .user {
